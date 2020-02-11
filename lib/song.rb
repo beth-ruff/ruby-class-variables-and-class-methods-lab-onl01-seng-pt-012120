@@ -9,5 +9,5 @@ end
 
 end
 
-hit_me = Song.new("hit me baby one more time")
+hit_me = Song.new("hit me baby one more time", "Brittany Spears", "pop")
 hit_me
