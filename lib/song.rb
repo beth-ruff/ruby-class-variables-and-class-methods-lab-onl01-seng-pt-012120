@@ -1,5 +1,6 @@
 class Song 
-attr_accessible: 
+
+def ini
 
 
 end
