@@ -4,8 +4,6 @@ class Song
   @@count = 0 
   @@artists = []
   @@genres = []
-  @@genre_count = {} 
-  @@artist_count = {} 
 
 def initialize(name, artist, genre)
   @name = name
@@ -29,7 +27,15 @@ def self.genres
 end 
 
 def self.genre_count
-  @@genre_count
+  genre_count = {}
+  @@genres.each do |genres|
+    if genre_count[genre]
+      genre_count[genre] += 1 
+    else
+      genre_count[genre] = 1 
+    end
+  end
+  genre_count
 end
 
 hit_me = Song.new("hit me baby one more time", "Brittany Spears", "pop")
