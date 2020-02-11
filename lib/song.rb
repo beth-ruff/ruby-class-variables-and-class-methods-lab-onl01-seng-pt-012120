@@ -4,6 +4,8 @@ class Song
   @@count = 0 
   @@artists = []
   @@genres = []
+  @@genre_count = {} 
+  @@artist_count = {} 
 
 def initialize(name, artist, genre)
   @name = name
@@ -26,6 +28,8 @@ def self.genres
   @@genres.uniq
 end 
 
+def self.genre_count
+  @@genre_count
 end
 
 hit_me = Song.new("hit me baby one more time", "Brittany Spears", "pop")
