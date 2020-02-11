@@ -9,3 +9,5 @@ end
 
 end
 
+hit_me = song.new("hit me baby one more time")
+hit_me
