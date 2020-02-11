@@ -38,6 +38,8 @@ def self.genre_count
   genre_count
 end
 
+end
+
 hit_me = Song.new("hit me baby one more time", "Brittany Spears", "pop")
 hit_me.name
 hit_me.artist 
