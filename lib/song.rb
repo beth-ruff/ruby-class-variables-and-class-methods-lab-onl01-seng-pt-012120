@@ -1,6 +1,6 @@
 class Song 
 
-def ini
+def initialize()
 
 
 end
