@@ -8,3 +8,6 @@ end
 
 
 end
+
+
+lucifer = song.new 
