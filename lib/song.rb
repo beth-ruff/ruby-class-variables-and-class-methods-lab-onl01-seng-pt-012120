@@ -45,4 +45,3 @@ hit_me.name
 hit_me.artist 
 hit_me.genre 
 
-Song.genre_count 
